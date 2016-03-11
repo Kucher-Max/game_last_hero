@@ -1,4 +1,5 @@
 <?php
+
 $participants = [
     ['name' => 'Nikita',
      'surname' => 'Lysenko',
@@ -150,6 +151,9 @@ $participants = [
      'age' => 35
     ],
 ];
+
+shuffle($participants);
+
 echo "<pre>";
 print_r($participants);
 
